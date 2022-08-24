@@ -11,7 +11,6 @@ for (let array of arrays) {
 
 const input = document.getElementById("input");
 input.oninput = () => {
-  console.log(input.value)
   for (let row of table.rows) {
     const text = row.cells[1].innerText.toLowerCase();
     const value = input.value.toLowerCase();
